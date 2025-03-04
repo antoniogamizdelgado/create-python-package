@@ -4,7 +4,7 @@
   "description": "Automatically create __init__.py files for you.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": " 1.96.2"
   },
   "categories": [
     "Other"
@@ -14,8 +14,14 @@
   "contributes": {
     "commands": [
       {
-        "command": "create-python-package.helloWorld",
-        "title": "Hello World"
+        "command": "create-python-package.createPackage",
+        "title": "Create Python Package"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "create-python-package.createPackage",
+        "key": "ctrl+shift+p"
       }
     ]
   },
