@@ -14,14 +14,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "create-python-package.createPackage",
-        "title": "Create Python Package"
-      }
-    ],
-    "keybindings": [
+        "command": "create-python-package.createDirectory",
+        "title": "Create Directory"
+      },
       {
-        "command": "create-python-package.createPackage",
-        "key": "ctrl+shift+p"
+        "command": "create-python-package.createFile",
+        "title": "Create File"
       }
     ]
   },
