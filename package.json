@@ -3,8 +3,13 @@
   "displayName": "Create Python Package",
   "description": "Automatically create __init__.py files for you.",
   "version": "0.0.1",
+  "publisher": "antonio-gamiz-delgado",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoniogamizdelgado/create-python-package"
+  },
   "engines": {
-    "vscode": " 1.96.2"
+    "vscode": "^1.96.2"
   },
   "categories": [
     "Other"
@@ -35,7 +40,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.97.0",
+    "@types/vscode": "^1.96.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.25.0",
